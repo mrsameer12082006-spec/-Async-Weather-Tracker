@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Async Weather Tracker</h1>
+    <div class="main-wrapper">
+        <div class="left-container">
+            <div id="search-main-container">
+                <h3>Search City</h3>
+                <form id="weather-form">
+                    <input placeholder="Enter the City Name" type="text" name="city" id="city" required>
+                    <button type="submit" class="submit-btn">Search</button>
+                </form>
+            </div>
+
+            <div id="history-main-container">
+                <h3>Search History</h3>
+                <div id="Search-history">
+                    <!-- History buttons will be injected here dynamically -->
+                </div>
+            </div>
+        </div>
+
+        <div class="right-container">
+            <h3>Weather Info</h3>
+            <div id="weather-data">
+                <div class="weather-row" style="border-left: none; background: transparent; padding-left: 0;">
+                    <span style="opacity: 0.7; font-size: 14px;">Search for a city to see weather data.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
