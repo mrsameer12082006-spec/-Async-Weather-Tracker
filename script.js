@@ -1,5 +1,5 @@
 // Use the existing API key
-const API_KEY = "1a761d3bb408836cd1af3641ce1604c9";
+const API_KEY = "2411fc0f77bfcbdfd5c2a4b33222989c";
 
 // DOM Elements
 const form = document.getElementById("weather-form");
